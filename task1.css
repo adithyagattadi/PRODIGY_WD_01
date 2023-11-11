@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .img{
+    position: relative;
+    top: 200px;
+    left: 50px;
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    z-index: 1;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    margin: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+  }
+  .textBox h2{
+    font-size: 4em;
+    color: #333;
+    line-height: 1.4em;
+    font-weight: 500px;
+  }
+  .textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900px;
+
+  }
+  .textBox p{
+    color: #333;
+  }
+  .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    font-weight: 500px;
+    text-decoration: none;
+  }
+  .section:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    margin-top: 50px;
+  }
+  .imgBox img{
+    max-width: 340px;
+  }
+  .thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .thumb li :hover{
+    transform: translateY(-15px);
+  }
+  .thumb li img{
+    max-width: 60px;
+  }
+  /* .social{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social li{
+    list-style: none;
+  }
+  .social li img{
+    display: inline-block;
+    margin: 50px 0;
+    transform: scale(0.6);
+    height: 50px;
+    width: 50px;
+  } */
